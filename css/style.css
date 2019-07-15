@@ -5,30 +5,28 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #305f72;
+  background-color: #a;
 }
 
 body {
   width: 70%;
   margin: 0 auto;
-  font-size: 2rem;
 }
 
 /* || typography */
 
 h1, h2, h3 {
-font-family:fantasy;
+  font-family: 'Kara', cursive;
   color: #2a2a2a;
 }
 
 p, input, li {
-  font-size: 1px
-  font-family: 'fantasy', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #2a2a2a;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 10px black;
@@ -41,17 +39,10 @@ h2 {
 
 h3 {
   font-size: 3rem;
-  text-align: center;
-}
-
-h4 {
-  text-align: center;
-  font-size: 3rem;
-  text align: center;
 }
 
 p, li {
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.5;
 }
 
@@ -64,7 +55,7 @@ nav, article, aside, footer {
 
 nav {
   height: 50px;
-  background-color: #f1d1b5;
+  background-color: #ff80ff;
   display: flex;
   margin-bottom: 10px;
 }
@@ -80,6 +71,7 @@ nav li {
   display: inline;
   text-align: center;
   flex: 1;
+  font: Fira Sans
 }
 
 nav a {
@@ -123,29 +115,12 @@ main {
 
 article {
   flex: 4;
+}
 
 aside {
   flex: 1;
   margin-left: 10px;
-  background-color: #f0b7a4;
-}
-
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}
-
-div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-img {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  background-color: #ff80ff;
 }
 
 aside li {
