@@ -20,6 +20,10 @@ h1, h2, h3 {
   color: #2a2a2a;
 }
 
+h4{
+  font-size: 20px
+}
+
 p, input, li {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #2a2a2a;
@@ -38,10 +42,6 @@ h2 {
 }
 
 h3 {
-  font-size: 3rem;
-}
-
-h4 {
   font-size: 3rem;
 }
 
@@ -129,21 +129,6 @@ aside {
 
 aside li {
   padding-bottom: 10px;
-
-var n = Math.random(); 0.1253698348234598
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 footer {
